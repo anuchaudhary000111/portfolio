@@ -4,33 +4,41 @@ import project1 from "../images/project.png";
 import project2 from "../images/project2.png";
 import project3 from "../images/project3.png";
 import Particles from "react-tsparticles";
+import html5 from "../images/html5.png";
+import css from "../images/css.png";
+import javascript from "../images/javascript.png";
+import react from "../images/react.jpeg";
+import redux from "../images/redux.png";
 
 export default function Homepage() {
   const data = [
     {
+      image: project3,
+      title: "ProfessionalsUK",
+      date: "Oct 2021 - Present",
+      desc: "Currently working here as part time & freelancer, this project is on Php & Reactjs. I am proving HTML, CSS, Reactjs support in developing additional features like Email page creation, Improving existing CSS, Converting mobile friendly, New Mobile hamburger development etc.",
+      url: "https://professionalsuk.co.uk/",
+    },
+    {
       image: project1,
-      title: "Why do we use it?",
-      date: "oct,2010 - oct,2012",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many websites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like.",
+      title: "JobSeeker Services Platform",
+      date: "Oct 2019 - Sep 2020",
+      desc: "It's a online job seeker service platform where jobseeker can purchase services like Resume Writing, Higher ranking in the eye of Recruiter, etc services. I worked on the mobile web version of this, Skills used are ReactJS, Redux, Javascript, HTML, CSS & consumed Rest Api for backend data.",
+      url: "https://resume.naukri.com/",
     },
     {
       image: project2,
-      title: "Why do we use it?",
-      date: "oct,2010 - oct,2012",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many websites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like.",
-    },
-    {
-      image: project3,
-      title: "Why do we use it?",
-      date: "oct,2010 - oct,2012",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many websites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like.",
+      title: "Recruiter Management System",
+      date: "Sep 2018 - Oct 2019",
+      desc: "Its a dedicated portal used by Recruiters for services like Job posting, Resume downloading, Jobseeker searching. I worked here on almost all modules like Job posting form, Candidate searching page, Send message service. Skills used are HTML, CSS, ReactJS, Redux, JS, Webpack, Axios.",
+      url: "https://rms.naukri.com/",
     },
   ];
 
   return (
     <>
       <Particles
-        height="300px"
+        height="320px"
         options={{
           height: "100px",
           background: {
@@ -232,7 +240,7 @@ export default function Homepage() {
           </div>
           <div>
             <p>
-              <h3>SKills: HTML, CSS, JavaScript, React.</h3>
+              <h3>JavaScript, ReactJS, Redux, HTML5, CSS3, Web Development.</h3>
             </p>
           </div>
         </div>
@@ -242,17 +250,22 @@ export default function Homepage() {
               <h2>About me</h2>
             </p>
             <p>
-              Hi all, Anu Chaudhary loves to do programming, writting, speaking
-              and travelling. I worked as a freelancer. I live my life with my
-              own conditions and don't like the interference of any other person
-              (or) third person.
+              Hi there, I am Anu Chaudhary, a Frontend Developer with 2 years of
+              professional working experience in IT company. I like to build
+              awesome UI, love to learn new things in Frontend. Currently I am
+              skilled in ReactJS framework along with Redux, CSS3, Html5,
+              Webpack & RestAPIs.
+              <p>
+                I recently started my full time Job search in United kingdom, Remote
+                working preference.
+              </p>
             </p>
           </div>
           <div className={s.social}>
             <h2>Contacts</h2>
             <div>
               <p>
-                <i class="fa fa-envelope-o"></i>
+                <i className="fa fa-envelope-o"></i>
                 <span className={s.common}>
                   <a
                     rel="noreferrer"
@@ -263,7 +276,7 @@ export default function Homepage() {
                 </span>
               </p>
               <p>
-                <i class="fa fa-linkedin"></i>
+                <i className="fa fa-linkedin"></i>
                 <span className={s.common}>
                   <a
                     rel="noreferrer"
@@ -275,7 +288,7 @@ export default function Homepage() {
                 </span>
               </p>
               <p>
-                <i class="fa fa-github"></i>
+                <i className="fa fa-github"></i>
                 <span className={s.common}>
                   <a
                     rel="noreferrer"
@@ -309,16 +322,41 @@ export default function Homepage() {
                 <div className={s.projectDesc}>
                   <h4>{item.title}</h4>
                   <p className={s.date}>{item.date}</p>
-                  <p>{item.desc}</p>
+                  <p className={s.desc}>{item.desc}</p>
+                  <p className={s.date}>
+                    <a href={item.url} rel="noreferrer" target="_blank">
+                      Project Url
+                    </a>
+                  </p>
                 </div>
               </div>
             );
           })}
         </div>
       </div>
+      <div className={s.icons}>
+        <span>
+          <img alt="project" src={html5} />
+        </span>
+        <span>
+          <img alt="project" src={css} />
+        </span>
+
+        <span>
+          <img alt="project" src={javascript} />
+        </span>
+
+        <span>
+          <img alt="project" src={react} />
+        </span>
+
+        <span>
+          <img alt="project" src={redux} />
+        </span>
+      </div>
       <div className={s.footerSection}>
         <div className={s.footer}>
-          <p>© 2022</p>
+          <p>Anu Chaudhary © 2022</p>
         </div>
       </div>
     </>
