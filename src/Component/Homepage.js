@@ -22,14 +22,14 @@ export default function Homepage() {
     {
       image: project1,
       title: "JobSeeker Services Platform",
-      date: "Oct 2019 - Sep 2020",
+      date: "April 2019 - Oct 2020",
       desc: "It's a online job seeker service platform where jobseeker can purchase services like Resume Writing, Higher ranking in the eye of Recruiter, etc services. I worked on the mobile web version of this, Skills used are ReactJS, Redux, Javascript, HTML, CSS & consumed Rest Api for backend data.",
       url: "https://resume.naukri.com/",
     },
     {
       image: project2,
       title: "Recruiter Management System",
-      date: "Sep 2018 - Oct 2019",
+      date: "Nov 2018 - July 2019",
       desc: "Its a dedicated portal used by Recruiters for services like Job posting, Resume downloading, Jobseeker searching. I worked here on almost all modules like Job posting form, Candidate searching page, Send message service. Skills used are HTML, CSS, ReactJS, Redux, JS, Webpack, Axios.",
       url: "https://rms.naukri.com/",
     },
