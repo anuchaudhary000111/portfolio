@@ -22,14 +22,14 @@ export default function Homepage() {
     {
       image: project1,
       title: "JobSeeker Services Platform",
-      date: "April 2019 - Oct 2020",
+      date: "Nov 2019 - Jul 2020",
       desc: "It's a online job seeker service platform where jobseeker can purchase services like Resume Writing, Higher ranking in the eye of Recruiter, etc services. I worked on the mobile web version of this, Skills used are ReactJS, Redux, Javascript, HTML, CSS & consumed Rest Api for backend data.",
       url: "https://resume.naukri.com/",
     },
     {
       image: project2,
       title: "Recruiter Management System",
-      date: "Nov 2018 - July 2019",
+      date: "April 2019 - Oct 2019",
       desc: "Its a dedicated portal used by Recruiters for services like Job posting, Resume downloading, Jobseeker searching. I worked here on almost all modules like Job posting form, Candidate searching page, Send message service. Skills used are HTML, CSS, ReactJS, Redux, JS, Webpack, Axios.",
       url: "https://rms.naukri.com/",
     },
@@ -250,7 +250,7 @@ export default function Homepage() {
               <h2>About me</h2>
             </p>
             <p>
-              Hi there, I am Anu Chaudhary, a Frontend Developer with 2 years of
+              Hi there, I am Anu Chaudhary, a Frontend Developer with more than 1 year of
               professional working experience in IT company. I like to build
               awesome UI, love to learn new things in Frontend. Currently I am
               skilled in ReactJS framework along with Redux, CSS3, Html5,
