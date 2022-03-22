@@ -15,7 +15,7 @@ export default function Homepage() {
     {
       image: project3,
       title: "ProfessionalsUK",
-      date: "Oct 2021 - Present",
+      date: "Dec 2021 - Present",
       desc: "Currently working here as part time & freelancer, this project is on Php & Reactjs. I am proving HTML, CSS, Reactjs support in developing additional features like Email page creation, Improving existing CSS, Converting mobile friendly, New Mobile hamburger development etc.",
       url: "https://professionalsuk.co.uk/",
     },
