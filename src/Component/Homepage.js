@@ -256,8 +256,8 @@ export default function Homepage() {
               skilled in ReactJS framework along with Redux, CSS3, Html5,
               Webpack & RestAPIs.
               <p>
-                I recently started my full time Job search in United kingdom, Remote
-                working preference.
+                I recently started my full time Job search in Frontend Field, Remote
+                only opportunity.
               </p>
             </p>
           </div>
